@@ -29,7 +29,7 @@ const LandingPage: NextPage = () => {
             Intelligent World 2030
           </h1>
           <h2 className="text-2xl font-bold text-black">
-            9<sup>th</sup> May 2023, 9 am to 5 pm, Auditorium Library UMP Pekan
+            9<sup>th</sup> May 2023, 9 am to 5 pm, Auditorium Library & Pusat Akademik Pelajar, UMP Pekan
           </h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link
