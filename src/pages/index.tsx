@@ -25,7 +25,7 @@ const LandingPage: NextPage = () => {
         </div>
         <div className="container relative z-10 flex flex-col items-center justify-center gap-12 px-4 py-16">
           <h1 className="text-center text-5xl font-extrabold tracking-tight text-red-600 sm:text-[5rem]">
-            Huawei Day: <br />
+            Huawei Open Day: <br />
             Intelligent World 2030
           </h1>
           <h2 className="text-2xl font-bold text-black">
