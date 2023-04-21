@@ -35,6 +35,7 @@ const LandingPage: NextPage = () => {
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-black/10 p-4 text-black hover:bg-black/20"
               href="https://forms.gle/nbGZ7E6JJQMpbbmR8"
+              target="_blank"
             >
               <h3 className="text-2xl font-bold">Register now →</h3>
               <div className="text-lg">
