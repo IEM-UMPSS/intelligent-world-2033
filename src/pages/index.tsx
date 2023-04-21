@@ -56,7 +56,7 @@ const LandingPage: NextPage = () => {
           </div>
           <div className="flex flex-col items-center gap-2" id="register">
             <p className="text-2xl text-black">
-              Made with 💕 by Technical Team
+              Made with 💕 by Technical Team 
             </p>
           </div>
         </div>
