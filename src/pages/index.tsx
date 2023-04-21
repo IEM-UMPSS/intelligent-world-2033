@@ -36,7 +36,13 @@ const LandingPage: NextPage = () => {
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-black/10 p-4 text-black hover:bg-black/20"
               href="#register"
             >
-              <h3 className="text-2xl font-bold">Register now →</h3>
+              <Link
+                className="flex max-w-xs flex-col gap-4 rounded-xl bg-black/10 p-4 text-black hover:bg-black/20"
+                href="https://forms.gle/nbGZ7E6JJQMpbbmR8"
+                target="_blank"
+              >
+                <h3 className="text-2xl font-bold">Register now →</h3>
+              </Link>
               <div className="text-lg">
                 Join us at Huawei Day and learn about the Intelligent World
                 2030.
@@ -44,7 +50,7 @@ const LandingPage: NextPage = () => {
             </Link>
             <Link
               className="flex max-w-xs flex-col gap-4 rounded-xl bg-black/10 p-4 text-black hover:bg-black/20"
-              href="https://www.huawei.com/en/events/huaweiday/2022/intelligent-world-2030"
+              href="https://www.huawei.com/en/giv"
               target="_blank"
             >
               <h3 className="text-2xl font-bold">Learn more →</h3>
@@ -56,7 +62,7 @@ const LandingPage: NextPage = () => {
           </div>
           <div className="flex flex-col items-center gap-2" id="register">
             <p className="text-2xl text-black">
-              Made with 💕 by Technical Team 
+              Made with 💕 by Technical Team
             </p>
           </div>
         </div>
