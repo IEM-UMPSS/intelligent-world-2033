@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import Flow from "~/components/flow";
 
 const LandingPage: NextPage = () => {
   return (
@@ -13,7 +14,8 @@ const LandingPage: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center ">
+
+      <main className="flex min-h-screen flex-col">
         <div className=" opacity-10">
           <video
             src="https://www.huawei.com/mediafiles/MediaFiles/2/1/2/%7B2121536E-2920-4260-AAEE-59DD37B7ECEB%7Dintelligent-2030-en-720.mp4"
@@ -23,13 +25,14 @@ const LandingPage: NextPage = () => {
             className="fixed left-0 top-0 z-[-1] h-full w-full object-cover "
           ></video>
         </div>
-        <div className="container relative z-10 flex flex-col items-center justify-center gap-12 px-4 py-16">
+        <div className="container relative z-10 flex flex-col items-center justify-center gap-12 px-4 py-2">
           <h1 className="text-center text-5xl font-extrabold tracking-tight text-red-600 sm:text-[5rem]">
             Huawei Open Day: <br />
             Intelligent World 2030
           </h1>
           <h2 className="text-2xl font-bold text-black">
-            9<sup>th</sup> May 2023, 9 am to 5 pm, Auditorium Library & Pusat Akademik Pelajar, UMP Pekan
+            9<sup>th</sup> May 2023, 9 am to 5 pm, Auditorium Library & Pusat
+            Akademik Pelajar, UMP Pekan
           </h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link
@@ -55,11 +58,10 @@ const LandingPage: NextPage = () => {
               </div>
             </Link>
           </div>
-          <div className="flex flex-col items-center gap-2" id="register">
-            <p className="text-2xl text-black">
-              Made with 💕 by Technical Team
-            </p>
-          </div>
+        </div>
+        <Flow />
+        <div className="flex flex-col items-center gap-2 mb-5" id="register">
+          <p className="text-2xl text-black">Made with 💕 by Technical Team</p>
         </div>
       </main>
     </>
