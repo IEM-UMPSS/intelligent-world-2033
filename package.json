@@ -10,7 +10,9 @@
   },
   "devDependencies": {
     "@types/node": "^18",
-    "@vuestic/nuxt": "^1.0.13",
     "nuxt": "^3.4.3"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.4"
   }
 }
