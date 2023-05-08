@@ -48,7 +48,8 @@ const speakers = [
 							Day:
 						</p>
 						<p class="title is-1 has-text-weight-bold has-text-white">
-							<span class="px-3 has-text-primary has-background-white" style="border-radius: 5px;">Intelligent</span>
+							<span class="px-3 has-text-primary has-background-white"
+								style="border-radius: 5px;">Intelligent</span>
 							World 2030
 						</p>
 						<p class="title is-5 has-text-weight-bold has-text-white">9th & 10th May 2023, Auditorium Library &
@@ -89,7 +90,8 @@ const speakers = [
 					<div class="column is-6">
 						<p class="title has-text-white">About The Event</p>
 						<p>Huawei's Intelligent World 2030 vision aims to improve quality of life through technology and
-							sustainability. It includes sustainable diets, comfortable living spaces, and eliminating city traffic
+							sustainability. It includes sustainable diets, comfortable living spaces, and eliminating city
+							traffic
 							congestion and pollution.</p>
 					</div>
 					<div class="column is-3">
@@ -151,20 +153,73 @@ const speakers = [
 								<div class="list">
 									<div class="list-item box">
 										<div class="list-item-content">
-											<div class="list-item-title">List item</div>
-											<div class="list-item-description">List item description</div>
+											<div class="list-item-title">9.00 AM - 9.30 AM</div>
+											<div class="list-item-description">Arrival of students & guests</div>
 										</div>
 									</div>
 									<div class="list-item box">
 										<div class="list-item-content">
-											<div class="list-item-title">List item</div>
-											<div class="list-item-description">List item description</div>
+											<div class="list-item-title">9.30 AM - 9.45 AM</div>
+											<div class="list-item-description">Arrival of Vice Chancellor Assistant, Huawei
+												VIPs, Honourable guests</div>
 										</div>
 									</div>
 									<div class="list-item box">
 										<div class="list-item-content">
-											<div class="list-item-title">List item</div>
-											<div class="list-item-description">List item description</div>
+											<div class="list-item-title">9.45 AM - 10.05 AM</div>
+											<div class="list-item-description">
+												Welcoming Speech by Event Emcees<br />
+												National Anthem "Negaraku"<br />
+												UMP Anthem "UMP Maju Gemilang"<br />
+												Doa Recitation
+											</div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">10.05 AM - 10.30 AM</div>
+											<div class="list-item-description">
+												<b>Opening Ceremony of 1st Huawei Open Day: Intelligent World 2030</b><br/>
+												Welcoming Address by Professor Dato' Ts. Dr. Yuserrie bin Zainuddin DIMP Vice Chancellor Universiti Malaysia Pahang<br/>
+												Welcoming Address by Huawei VIP<br/>
+												Opening Montage
+											</div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">10.30 AM - 11.30 AM</div>
+											<div class="list-item-description"><b>Intelligent World 2030 (Insights into ICT trends and their application for the next decade) + Q&A</b></div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">11.30 AM - 12.30 PM</div>
+											<div class="list-item-description"><b>Elevate Your Potential with Huawei + Q&A</b></div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">12.30 PM - 12.40 PM</div>
+											<div class="list-item-description">Souvenir Presentation + Photo Session</div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">12.40 PM - 1.30 PM</div>
+											<div class="list-item-description">Lunch Break</div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">1.30 PM - 5.00 PM</div>
+											<div class="list-item-description"><b>Career Booth: Career Consultation, Resume Review & Interview</b>></div>
+										</div>
+									</div>
+									<div class="list-item box">
+										<div class="list-item-content">
+											<div class="list-item-title">12.40 PM - 1.30 PM</div>
+											<div class="list-item-description"><b>The End</b></div>
 										</div>
 									</div>
 								</div>
@@ -238,8 +293,10 @@ const speakers = [
 									<p class="title">Third column</p>
 									<p class="subtitle">With some content</p>
 									<div class="content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
-											tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros,
+											eu pellentesque
+											tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+											facilisis.</p>
 									</div>
 								</article>
 							</div>
@@ -273,8 +330,10 @@ const speakers = [
 										<p class="title">Wide column</p>
 										<p class="subtitle">Aligned with the right column</p>
 										<div class="content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
-												tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna
+												eros, eu pellentesque
+												tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis
+												feugiat facilisis.</p>
 										</div>
 									</article>
 								</div>
@@ -285,18 +344,28 @@ const speakers = [
 										<p class="title">Tall column</p>
 										<p class="subtitle">With even more content</p>
 										<div class="content">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at
-												pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
-												Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at
+												erat pulvinar, at
+												pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida
+												libero rhoncus ut.
+												Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis
+												semper odio felis ut
 												quam.</p>
-											<p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis.
-												Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin
-												felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit
-												amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat
+											<p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a
+												sagittis.
+												Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor
+												lorem, et sollicitudin
+												felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus
+												felis hendrerit sit
+												amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius
+												ligula, at volutpat
 												tortor.</p>
-											<p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor
-												consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper
-												a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+											<p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae
+												congue lectus dolor
+												consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a
+												metus. Cras ullamcorper
+												a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non
+												semper leo.</p>
 										</div>
 									</div>
 								</article>
@@ -309,8 +378,10 @@ const speakers = [
 									<p class="title">Side column</p>
 									<p class="subtitle">With some content</p>
 									<div class="content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
-											tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros,
+											eu pellentesque
+											tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+											facilisis.</p>
 									</div>
 								</article>
 							</div>
@@ -319,8 +390,10 @@ const speakers = [
 									<p class="title">Main column</p>
 									<p class="subtitle">With some content</p>
 									<div class="content">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque
-											tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros,
+											eu pellentesque
+											tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+											facilisis.</p>
 									</div>
 								</article>
 							</div>
@@ -344,23 +417,27 @@ const speakers = [
 								<figure class="image">
 									<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
 								</figure>
-							</div><div class="column">
-									<figure class="image">
-										<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
-									</figure>
-								</div><div class="column">
-									<figure class="image">
-										<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
-									</figure>
-								</div><div class="column">
-									<figure class="image">
-										<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
-									</figure>
-								</div><div class="column">
-									<figure class="image">
-										<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
-									</figure>
-								</div>
+							</div>
+							<div class="column">
+								<figure class="image">
+									<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
+								</figure>
+							</div>
+							<div class="column">
+								<figure class="image">
+									<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
+								</figure>
+							</div>
+							<div class="column">
+								<figure class="image">
+									<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
+								</figure>
+							</div>
+							<div class="column">
+								<figure class="image">
+									<img src="https://www.ump.edu.my/img/logo-ump-tvet-1.png" alt="">
+								</figure>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -383,8 +460,7 @@ const speakers = [
 	<ofooter />
 </template>
 
-<style>
-#home {
+<style>#home {
 	background-image: url("@/assets/img/home.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
